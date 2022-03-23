@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+}
+
+.british {
+    width: 500px;
+    height: 250px;
+    background-color: red;
+}
+
+/* Top Left Corner */
+
+.topLeft {
+    width: 225px;
+    height: 100px;
+    background: white;
+    position: absolute;
+}
+
+.topLeft .smallTriangle {
+    height: 0;
+    width: 0;
+    border-right: 108.3px solid transparent;
+    border-bottom: 50px solid blue;
+    position: absolute;
+    top: 33.333px;
+}
+
+.topLeft .largeTriangle {
+    height: 0;
+    width: 0;
+    border-left:150px solid transparent;
+    border-top: 75px solid blue;
+    position: absolute;
+    left: 58.3px;
+}
+
+.topLeft .redStripe{
+    width: 0;
+    height: 0;
+    border-right: 165px solid transparent;
+    border-bottom: 83.33px solid red;
+    position: absolute;
+}
+
+.topLeft .whiteStripe{
+    width: 0;
+    height: 0;
+    border-right: 133.33px solid transparent;
+    border-bottom: 66.6px solid white;
+    position: absolute;
+    top: 16.67px;
+}
+
+/* Top Right Corner */
+
+.topRight {
+    width: 225px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    left: 275px;
+}
+
+.topRight .smallTriangle {
+    height: 0;
+    width: 0;
+    border-left: 108.3px solid transparent;
+    border-bottom: 50px solid blue;
+    position: absolute;
+    top: 33.333px;
+    right: 0;
+}
+
+.topRight .largeTriangle {
+    height: 0;
+    width: 0;
+    border-right:150px solid transparent;
+    border-top: 75px solid blue;
+    position: absolute;
+    right: 58.3px;
+}
+
+.topRight .redStripe{
+    width: 30px;
+    height: 83.33px;
+    background-color: red;
+    position: absolute;
+    right: 83.33px;
+    transform: skew(-243.5deg);
+}
+
+/* Bottom Left Corner */
+
+.bottomLeft {
+    width: 225px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    top: 150px;
+}
+
+.bottomLeft .smallTriangle {
+    height: 0;
+    width: 0;
+    border-right: 108.3px solid transparent;
+    border-top: 50px solid blue;
+    position: absolute;
+    top: 16.67px;
+}
+
+.bottomLeft .largeTriangle {
+    height: 0;
+    width: 0;
+    border-left: 150px solid transparent;
+    border-bottom: 75px solid blue;
+    position: absolute;
+    right: 16.67px;
+    bottom: 0;
+}
+
+.bottomLeft .redStripe{
+    width: 30px;
+    height: 83.33px;
+    background-color: red;
+    position: absolute;
+    left: 83.33px;
+    transform: skew(-243.5deg);
+    bottom: 0;
+}
+
+/* Bottom Right Corner */
+
+.bottomRight {
+    width: 225px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    top: 150px;
+    left: 275px;
+}
+
+.bottomRight .smallTriangle {
+    height: 0;
+    width: 0;
+    border-left: 108.3px solid transparent;
+    border-top: 50px solid blue;
+    position: absolute;
+    top: 16.67px;
+    right: 0;
+}
+
+.bottomRight .largeTriangle {
+    height: 0;
+    width: 0;
+    border-right:150px solid transparent;
+    border-bottom: 75px solid blue;
+    position: absolute;
+    left: 16.67px;
+    bottom: 0;
+}
+
+.bottomRight .redStripe{
+    width: 0;
+    height: 0;
+    border-left: 165px solid transparent;
+    border-top: 83.33px solid red;
+    position: absolute;
+    right: 0;
+    top: 16.67px;
+}
+
+.bottomRight .whiteStripe{
+    width: 0;
+    height: 0;
+    border-left: 133.33px solid transparent;
+    border-top: 66.6px solid white;
+    position: absolute;
+    top: 16.67px;
+    right: 0;
+}

@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+#jamaica {
+    display: inline-block;
+    width: 500px;
+    height: 250px;
+    background-color: yellow;
+}
+
+.top {
+    width: 0;
+    height: 0;
+    border-left: 225px solid transparent;
+    border-right: 225px solid transparent;
+    border-top: 112.5px solid #009B3A;
+    position: absolute;
+    left: 25px;
+}
+
+.bottom {
+    width: 0;
+    height: 0;
+    border-left: 225px solid transparent;
+    border-right: 225px solid transparent;
+    border-bottom: 112.5px solid #009B3A;
+    position: absolute;
+    left: 25px;
+    top: 137.5px;
+}
+
+.left {
+    width: 0;
+    height: 0;
+    border-top: 112.5px solid transparent;
+    border-bottom: 112.5px solid transparent;
+    border-left: 225px solid black;
+    position: absolute;
+    top: 12.5px;
+}
+
+.right {
+    width: 0;
+    height: 0;
+    border-top: 112.5px solid transparent;
+    border-bottom: 112.5px solid transparent;
+    border-right: 225px solid black;
+    position: absolute;
+    top: 12.5px;
+    left: 275px;
+}
